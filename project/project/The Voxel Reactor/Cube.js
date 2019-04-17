@@ -24,7 +24,7 @@ function drawStuff() {
   //Gets level of amplitude
   // let level = amplitude.getLevel();
   let level = mic.getLevel();
-  sizevol = map(level, 0, 0.3, 0, 600);
+  sizevol = map(level, 0, 0.3, 0, 400);
   //console.log(level);
 
   //Size of voxel sphere
