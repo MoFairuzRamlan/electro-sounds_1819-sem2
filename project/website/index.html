@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <title>p5.js template</title>
+
+    <!-- load style sheets -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!-- load javascript libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+
+    <!-- 3rd-party libraries here -->
+    <script src="https://tonejs.github.io/build/Tone.js"></script>
+
+
+  </head>
+  <body>
+		<div class='container'>
+			<header>
+				<ul class='menu'>
+				<li><a href='./index.html'>Home</a></li>
+				<li><a href='./fullscreen.html'>fullscreen</a></li>
+				<li><a href='./archive.html'>My Journey</a></li>
+        <li><a href='./gallery.html'>gallery</a></li>
+				</ul>
+			</header>
+      <div id="main">
+        <div class="landing">
+          <div class="overlay"><h2>The Voxel Reactor</h2></div>
+          <span id="down">&#8595;</span>
+        </div>
+        <div class="project-info">
+          <h2>About "The Voxel Reactor"</h2>
+          <p>This website explores my creative coding journey through the use of the P5.js Library to create Art, Visuals and much more. Here, you can find my visual style which integrates colours, audio-reactivity & self-generativity.</p>
+          <p>My journey has culminated into the realization of "The Voxel Reactor"; An Audio-Reactive Visualizer that features a Voxelized Polygon which grows with the Audio.</p> <p>This is accompanied by the various Audio-Reactive Landscapes which can be called using your keyboard number keys 1-9.</p>
+          <p>Have a look at my <a href="https://fairuz-music-projects.tumblr.com/" target="_blank">process log</a>, my <a href="https://editor.p5js.org/mohammadfairuz.ramla@mylasalle.edu.sg/sketches" target="_blank">p5js sketches</a>, and <a href="#" target="_blank">github</a> repo.<p>
+        </div>
+      </div>
+      <footer>
+        <p>
+          A project by Fairuz Ramlan.<br />
+          2019
+        </p>
+      </footer>
+		</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+      }
+
+      $(document).ready( function () {
+        $('#down').on('click',function () {
+          $("html").scrollTop(0);
+          $('html, body').animate({
+            scrollTop: $(".project-info").offset().top
+          }, 1000);
+        });
+      });
+    </script>
+  </body>
+</html>
