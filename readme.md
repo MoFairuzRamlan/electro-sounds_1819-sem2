@@ -23,7 +23,8 @@ Original Soundtrack:
 (Soundcloud link)
 https://soundcloud.com/fairuz-ramlan-mohammad-fairuz-bin-ramlan/electro-sounds-dubstep-music-fairuz-ramlan-19467
 
-The Wav. Audio File can also be accessed from ./Assets folder of the Final Project up in the Github. Titled *"Electro-Sounds Dubstep Music - Fairuz Ramlan 19467.wav"*
+The Wav. Audio File can also be accessed from electro-sounds_1819-sem2/project/website/assets/
+ folder of the Final Project up in the Github. Titled *"Electro-Sounds Dubstep Music - Fairuz Ramlan 19467.wav"*
 
 Music Video Made using Final Project & Soundtrack:
 
