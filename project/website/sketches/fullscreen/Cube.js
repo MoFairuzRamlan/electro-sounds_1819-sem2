@@ -28,7 +28,7 @@ function drawStuff() {
   //console.log(level);
 
   //Size of voxel sphere
-  let boxSzadd = map(spectrum[0], 0, 255, 0, 200);
+  let boxSzadd = map(spectrum[30], 0, 255, 0, 300);
   boxSz = 0 + sizevol + boxSzadd/8;
 
 
